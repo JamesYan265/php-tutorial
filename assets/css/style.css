@@ -1,0 +1,95 @@
+* body {
+  background-color: blanchedalmond;
+}
+* body .errorMessage {
+  color: red;
+  margin-left: 30px;
+}
+* body .title {
+  text-align: center;
+  font-size: 34px;
+}
+* body .threadWrapper {
+  background-color: #f3eded;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+* body .threadWrapper .childWrapper {
+  border: 1px solid black;
+  padding: 10px;
+}
+* body .threadWrapper .childWrapper .threadTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 6px;
+  height: 60px;
+}
+* body .threadWrapper .childWrapper .threadTitle h1 {
+  color: red;
+  margin-left: 3px;
+  font-size: 2.7rem;
+}
+* body .threadWrapper .childWrapper section {
+  padding: 0px 10px;
+}
+* body .threadWrapper .childWrapper section .nameArea {
+  display: flex;
+  align-items: center;
+  margin-bottom: -14px;
+}
+* body .threadWrapper .childWrapper section .nameArea .username {
+  color: green;
+  font-weight: 700;
+}
+* body .threadWrapper .childWrapper section .comment {
+  margin-top: 0;
+  margin-left: 20px;
+}
+* body .threadWrapper .childWrapper .formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+}
+* body .threadWrapper .childWrapper .formWrapper .submit {
+  width: 60px;
+}
+* body .threadWrapper .childWrapper .formWrapper .commentTextArea {
+  margin-top: 10px;
+  width: 500px;
+  height: 90px;
+  resize: none;
+}
+* body .newThreadWrapper {
+  background-color: #b3eeb3;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+* body .newThreadWrapper .newChildThreadWrapper {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+* body .newThreadWrapper .newChildThreadWrapper button a {
+  width: 150px;
+  color: black;
+  text-decoration: none;
+}
+* body .formWrapper {
+  padding: 16px;
+  margin-left: 20px;
+}
+* body .formWrapper .submit {
+  width: 60px;
+}
+* body .formWrapper .commentTextArea {
+  margin-top: 10px;
+  width: 600px;
+  height: 90px;
+  resize: none;
+}/*# sourceMappingURL=style.css.map */
